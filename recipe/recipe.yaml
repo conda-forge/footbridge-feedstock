@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   python_min: "3.11"
-  version: "1.0.9"
+  version: "1.0.10"
 
 package:
   name: footbridge
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/f/footbridge/footbridge-${{ version }}.tar.gz
-  sha256: eeaed01d65ebe7c1035ecc08c38aa5fa48b552028c33b3f110ff1f03465e1e3b
+  sha256: 0cb79fe631c47340880308abeb2b2b56f82a3f580a3444d8e994597ad419ca0f
 
 build:
-  number: 2
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
