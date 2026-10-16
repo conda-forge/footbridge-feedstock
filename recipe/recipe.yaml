@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/f/footbridge/footbridge-${{ version }}.tar.gz
-  sha256: 420a0ab6b02a25b9478ac9b5b389405d2d9bead0315228e36023597baa9817c6
+  sha256: 193690a7548dabc20121a94c8e0a86b4bcf20854c86cc2d551181502efabca33
 
 build:
   number: 0
